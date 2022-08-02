@@ -1,0 +1,57 @@
+body{
+    /* background-color:rgb(241, 236, 230);
+     */
+     background-image: url("https://img.freepik.com/free-vector/watercolor-artistic-galaxy-background_23-2149249705.jpg?w=2000&t=st=1659470775~exp=1659471375~hmac=0073403a5c7ddb0ba63a461d8ee7c2d69b75baf4e3baea956c9e171777aa4d58");
+	
+}
+
+#windowSection{
+    display: block;
+    margin:auto;
+
+}
+#userInput{
+    display: block;
+    margin:auto;
+}
+
+#stylesSelect{
+    display: inline;
+    margin:1em;
+    resize: none;
+    font-size: large;
+}
+#userInput:hover{
+    border-color: green;
+    border-width: 2px;
+    transition: .4s;
+}
+.displayWindow{
+ display: block;
+ margin: 1em;
+ resize: none;
+}
+
+.newSelect{
+    margin-left: 1em;
+    }
+
+.newDiv{
+    display: inline-block;
+    margin: 1em;
+}
+
+h1{
+    color: greenyellow;
+    font-family: tangerine, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    box-shadow: 0px 5px rgba(255, 255, 255, 0.7);
+  
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    display: inline;
+    color:white;
+}
