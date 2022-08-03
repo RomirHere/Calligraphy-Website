@@ -28,8 +28,11 @@ body{
 }
 .displayWindow{
  display: block;
- margin: 1em;
+ margin: 0.5em;
  resize: none;
+ width: 240PX;
+ height: 200PX;
+ font-size: 30px;
 }
 
 .newSelect{
