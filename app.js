@@ -56,6 +56,7 @@ async function createCanvas(styles){
         
         newSelect.addEventListener("input",function(e){
             displayWindow.style.fontFamily=this.value;
+            displayWindow.style.resize="none";
             // console.log(this.value);
             // console.log(displayWindow.style.fontFamily);
             fontArr.push(this.value);
@@ -92,14 +93,3 @@ function createOptions(items, newSelect){
     }
 }
 
-
-// let str = fontlink.href;
-
-// const len=4;
-// const fontArr = new Array();
-// console.log(fontArr)
-// console.log(typeof(fontlink.href))
-// fontArr.push("tangerine","Cute Font");
-// let arrStr=fontArr.join('|');
-// let x=str.concat(arrStr);
-// console.log(x);
